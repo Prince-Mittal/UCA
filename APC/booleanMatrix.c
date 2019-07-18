@@ -44,7 +44,7 @@ int main()
         if(r==0)
             arr[0][i]=0;
         if(c==0)
-            arr[i][0]==0;
+            arr[i][0]=0;
     }
     
     for(int i=0;i<n;i++){
