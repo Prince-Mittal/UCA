@@ -27,7 +27,7 @@ int main()
         }
     }
     //Make all inner row and column 0 according to the outer layer
-    for(int i=0;i<n;i++){
+    for(int i=1;i<n;i++){
         if(arr[0][i]==0){
             for(int j=1;j<n;j++){
                 arr[j][i]=0;
