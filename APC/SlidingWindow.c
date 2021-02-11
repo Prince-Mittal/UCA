@@ -26,7 +26,7 @@ int main(){
         }
         if(r-l >= max){
             max = r-l;
-            r_index = r;
+            r_index = r-1;
             l_index = l;
         }
     }
